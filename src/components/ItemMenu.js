@@ -68,7 +68,7 @@ const ItemMenu = () => {
                 {meals.map((e) => {
                     return (
                         <div
-                            className="shadow-md bg-white rounded-lg xl:mx-0 xl:w-full xl:h-full w-[185px] h-[235px]">
+                            className="shadow-md bg-white rounded-lg xl:mx-0 xl:w-full xl:h-full w-[178px] h-[235px]">
                             <img src={e.img} alt=""
                                  className="xl:w-[388px] xl:h-[280px] w-[200px] h-[123px] m-auto object-cover"/>
                             <div className="xl:mt-5 xl:mb-2 p-2">
