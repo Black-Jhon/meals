@@ -1,11 +1,11 @@
 import React from "react";
 // import CardOne from "../images/image 5.png";
-import Beef from "../images/beef.jpg";
-import Chicken from "../images/chicken.jpg";
-import Wrap from "../images/wraps.jpg";
-import Spag from "../images/spag.jpg";
-import Special from "../images/special.jpg";
-import White from "../images/white.jpg";
+import Beef from "../images/Rectangle 82(2).png";
+import Chicken from "../images/Rectangle 82.png";
+import Wrap from "../images/Rectangle 82(1).png";
+import Spag from "../images/Rectangle 82(3).png";
+import Special from "../images/Rectangle 82(4).png";
+import White from "../images/Rectangle 82(5).png";
 
 
 const ItemMenu = () => {
@@ -68,7 +68,7 @@ const ItemMenu = () => {
                 {meals.map((e) => {
                     return (
                         <div className="shadow-md bg-white rounded-lg">
-                            <img src={e.img} alt="" className="xl:w-full h-[290px] xl:ml-0 object-cover"/>
+                            <img src={e.img} alt="" className="xl:w-[388px] h-[280px] m-auto object-cover"/>
                             <div className="xl:mt-5 xl:mb-2">
                                 <h1 className="w-[300px] h-[32px] xl:ml-5 text-gray-700 font-bold text-xl capitalize">
                                     {e.name}
