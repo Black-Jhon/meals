@@ -30,7 +30,7 @@ const HeroSection = () => {
                 <span className="">
                     <img src={Jellof} alt="" className="rounded-full border-4 p-10 border-[#da3743]"/>
                 </span>
-                <span className="absolute xl:left-full left-72 xl:top-0 top-[470px] right-0">
+                <span className="absolute xl:left-full left-72 xl:top-[620px] top-[470px] right-0">
                     <TbMessageDots
                         className="bg-[#da3743] text-white rounded-full xl:w-[80px] xl:h-[80px] w-[48px] h-[48px] p-2 cursor-pointer"/>
                 </span>
