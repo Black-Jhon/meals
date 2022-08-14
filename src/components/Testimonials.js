@@ -19,28 +19,30 @@ const Testimonials = () => {
 
             <div>
                 <div
-                    className="xl:mt-20 flex gap-5 shadow-md bg-white rounded-xl xl:p-10 p-2 xl:w-full xl:h-72 w-[343px] h-[174px] xl:mx-0 mx-5">
-                    <div className="xl:flex xl:flex-col">
-                        <img src={Lady} alt="" className="xl:w-full xl:h-full w-[48px] h-[48px]"/>
-                        <div>
-                            <p className="xl:w-[84px] xl:h-[64px] w-[112px] h-[26px] text-xs xl:text-center xl:ml-5 mt-3 font-bold text-gray-700 xl:text-xl">
-                                John Samson
-                            </p>
-                            <p className="w-[98px] h-[19px] text-center xl:ml-3 text-sm text-gray-600 font-bold whitespace-nowrap">
-                                Enugu, Nigeria
-                            </p>
+                    className="flex rounded-xl shadow-md bg-white xl:p-10 px-4 pt-4 pb-10 xl:mt-16 justify-center xl:w-full xl:h-72 w-[325px] h-[174px] xl:mx-0 mx-5">
+
+                    <div className="xl:flex grid xl:gap-10">
+                        <div className="flex xl:flex-col xl:gap-0 gap-5">
+                            <img src={Lady} className="xl:w-full xl:h-full w-[48px] h-[48px] object-contain" alt=""/>
+                            <div>
+                                <p className="text-center xl:w-[84px] xl:h-[64px] xl:ml-3 xl:text-xl font-bold xl:mt-5">
+                                    John Samson
+                                </p>
+                                <p className="whitespace-nowrap xl:ml-2 xl:text-sm text-xs ml-3 text-gray-700">Enugu,
+                                    Nigeria</p>
+                            </div>
+                        </div>
+
+                        <div
+                            className="xl:mt-5 xl:w-[341px] xl:h-[174px] w-[269px] h-[59px] xl:text-base text-xs text-gray-500">
+                            White dwarf a still more glorious dawn awaits tingling of the spine emerged into
+                            consciousness Vangelis shores of the cosmic ocean. Tendrils of gossamer clouds kindling the
+                            energy hidden in matter concept of the number one permanence.
                         </div>
                     </div>
 
-                    <div
-                        className="xl:w-[341px] xl:h-[174px] w-[269px] h-[59px] xl:text-sm text-xs xl:ml-10 xl:mt-10 text-gray-600">
-                        White dwarf a still more glorious dawn awaits tingling of the spine emerged into consciousness
-                        Vangelis shores of the cosmic ocean. Tendrils of gossamer clouds kindling the energy hidden in
-                        matter concept of the number one permanence.
-                    </div>
-
-                    <div className="">
-                        <img src={QuoteIcon} alt=""/>
+                    <div>
+                        <img src={QuoteIcon} className="xl:w-[24px] xl:h-[24px] w-[100px] h-[12.67px]" alt=""/>
                     </div>
                 </div>
 

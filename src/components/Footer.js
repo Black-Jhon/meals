@@ -37,9 +37,9 @@ const Footer = () => {
 
             <div className="mt-10 flex justify-between items-center xl:mx-0 mx-5">
                 <div>
-                    <h1 className="text-xs text-gray-500 whitespace-nowrap">© 2022 Meals. All rights reserved.</h1>
+                    <h1 className="text-xs text-gray-500">© 2022 Meals. All rights reserved.</h1>
                 </div>
-                <div className="flex space-x-5 text-gray-500">
+                <div className="flex xl:space-x-5 text-gray-500">
                     <CgFacebook className="bg-[#f3eee4] w-[50px] h-[50px] rounded-full xl:p-3 p-4 cursor-pointer"/>
                     <RiInstagramLine className="bg-[#f3eee4] w-[50px] h-[50px] rounded-full xl:p-3 p-4 cursor-pointer"/>
                     <VscTwitter className="bg-[#f3eee4] w-[50px] h-[50px] rounded-full xl:p-3 p-4 cursor-pointer"/>

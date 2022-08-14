@@ -18,11 +18,11 @@ const HeroSection = () => {
                     className="hidden xl:block capitalize w-[325px] h-[54px] text-white bg-[#da3743] xl:px-16 xl:py-3 btn">
                     get started
                 </button>
-
                 <div className="relative xl:hidden block ml-5">
-                    <BsSearch className="cursor-pointer absolute top-4 text-2xl text-gray-500 left-5"/>
+                    <h1 className="xl:hidden block capitalize text-white mb-2">instant order</h1>
+                    <BsSearch className="cursor-pointer absolute top-12 text-2xl text-gray-500 left-5"/>
                     <input type="text"
-                           className="border border-gray-500 rounded-lg m-auto w-[342px] h-[54px] px-12 outline-none"
+                           className="border border-gray-500 rounded-lg  w-[325px] h-[54px] px-12 outline-none"
                            placeholder="Search for meals"/>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const HeroSection = () => {
                 <span className="">
                     <img src={Jellof} alt="" className="rounded-full border-4 p-10 border-[#da3743]"/>
                 </span>
-                <span className="absolute xl:left-full left-80 right-0">
+                <span className="absolute xl:left-full left-72 xl:top-0 top-[470px] right-0">
                     <TbMessageDots
                         className="bg-[#da3743] text-white rounded-full xl:w-[80px] xl:h-[80px] w-[48px] h-[48px] p-2 cursor-pointer"/>
                 </span>
