@@ -5,12 +5,13 @@ import {BsSearch} from "react-icons/bs";
 
 const HeroSection = () => {
     return (
-        <div className="xl:px-[200px] xl:flex justify-between items-center py-5">
+        <div
+            className="xl:px-[200px] xl:bg-inherit bg-[#da3743] xl:flex justify-between items-center py-5">
             <div className="space-y-10">
-                <h1 className="font-bold text-6xl text-gray-700 w-[551px] h-[144px]">
+                <h1 className="font-bold xl:text-6xl xl:text-gray-700 text-white xl:w-[551px] xl:h-[144px] w-[342px] h-[72px] text-2xl xl:ml-0 ml-5">
                     Delicious meals at your convenience
                 </h1>
-                <h2 className="text-gray-500 text-xl xl:w-[390px] h-[55px]">
+                <h2 className="xl:text-gray-500 xl:text-xl xl:w-[390px] xl:h-[55px] w-[309px] h-[55px] xl:ml-0 ml-5 text-white text-sm">
                     Order your meals from us and we will have it delivered at your doorstep.
                 </h2>
                 <button
@@ -18,7 +19,7 @@ const HeroSection = () => {
                     get started
                 </button>
 
-                <div className="relative xl:hidden block">
+                <div className="relative xl:hidden block ml-5">
                     <BsSearch className="cursor-pointer absolute top-4 text-2xl text-gray-500 left-5"/>
                     <input type="text"
                            className="border border-gray-500 rounded-lg m-auto w-[342px] h-[54px] px-12 outline-none"
