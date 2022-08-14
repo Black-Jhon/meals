@@ -30,9 +30,10 @@ const Newsletter = () => {
 
             <div className="flex justify-center mt-10 m-auto">
                 <div>
-                    <h1 className="w-[361px] h-[45px] text-center xl:ml-7 mb-4 text-3xl font-bold">Blog Our Latest
-                        News</h1>
-                    <p className="w-[420.99px] h-[52px] text-center text-sm text-gray-500">
+                    <h1 className="xl:w-[361px] xl:h-[45px] w-[233px] h-[32px] ml-16 text-lg text-center xl:ml-7 mb-4 xl:text-3xl font-bold">
+                        Blog Our Latest News
+                    </h1>
+                    <p className="xl:w-[420.99px] xl:h-[52px] w-[343px] h-[44px] text-center text-sm text-gray-500">
                         Have you ever browsed food blogs like mine and wondered how to start a food blog of your very
                         own?
                     </p>
