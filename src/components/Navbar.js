@@ -9,7 +9,7 @@ const Navbar = () => {
             <div
                 className="logo cursor-pointer flex items-center justify-center font-bold text-xl xl:ml-0 ml-5 space-x-2">
                 <img src={Logo} alt="" className="w-10 h-5"/>
-                <span className="capitalize text-gray-900">meals</span>
+                <span className="capitalize text-gray-900 mt-2">meals</span>
             </div>
 
             <div className="hidden xl:block">
