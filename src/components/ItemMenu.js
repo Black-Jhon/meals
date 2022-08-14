@@ -67,14 +67,15 @@ const ItemMenu = () => {
             <div className="grid xl:grid-cols-3 xl:gap-5 gap-2 grid-cols-2 mt-5 mb-10">
                 {meals.map((e) => {
                     return (
-                        <div className="shadow-md bg-white rounded-lg xl:mx-0 mx-5">
+                        <div
+                            className="shadow-md bg-white rounded-lg xl:mx-0 xl:w-full xl:h-full w-[185px] h-[235px]">
                             <img src={e.img} alt=""
-                                 className="xl:w-[388px] xl:h-[280px] w-[163.86px] h-[123px] m-auto object-cover"/>
+                                 className="xl:w-[388px] xl:h-[280px] w-[200px] h-[123px] m-auto object-cover"/>
                             <div className="xl:mt-5 xl:mb-2 p-2">
                                 <h1 className="xl:w-[300px] xl:h-[32px] w-[65px] h-[22px] xl:ml-5 text-gray-700 font-bold xl:text-xl text-sm whitespace-nowrap capitalize">
                                     {e.name}
                                 </h1>
-                                <h3 className="xl:w-[300px] xl:h-[44px] w-[ xl:ml-5 mt-2 text-sm text-gray-400">
+                                <h3 className="xl:w-[300px] xl:h-[44px] xl:ml-5 mt-2 text-[8px] text-gray-400">
                                     {e.text}
                                 </h3>
                                 <div className="flex justify-between items-center">
