@@ -39,7 +39,7 @@ const Newsletter = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-5 mt-10">
+            <div className="grid grid-cols-3 gap-5 mt-10 mb-28">
                 {news.map((e) => {
                     return (
                         <div className="shadow rounded-xl">
