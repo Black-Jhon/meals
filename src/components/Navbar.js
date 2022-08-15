@@ -1,6 +1,7 @@
 import React from "react";
 import {BsCart3, BsSearch} from "react-icons/bs";
 import Logo from "../images/Vector.png";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
     return (
@@ -27,25 +28,25 @@ const Navbar = () => {
             </div>
 
             <div className="flex justify-center items-center space-x-20">
-                <div className="search flex justify-center items-center space-x-5">
-                    {/*<div className="relative xl:hidden block">*/}
-                    {/*    <BsSearch className="hidden xl:block cursor-pointer absolute top-4 text-xl left-3"/>*/}
-                    {/*    <input type="text"*/}
-                    {/*           className="border border-gray-500 rounded-full w-[342px] h-[54px] px-10 outline-none"*/}
-                    {/*           placeholder="Search for meals"/>*/}
-                    {/*</div>*/}
-                    <BsSearch className="hidden xl:block cursor-pointer"/>
-                    <BsCart3 className="cursor-pointer"/>
+                <div className="relative search xl:flex xl:justify-center xl:items-center xl:space-x-5">
+                    <BsSearch className="hidden xl:block cursor-pointer mr-5 text-xl"/>
+                    <BsCart3
+                        className="cursor-pointer text-xl xl:-right-12 xl:mt-1 absolute -right-28 -top-1"/>
                 </div>
 
-                <div className="hidden xl:block capitalize cursor-pointer">sign in</div>
+                <div className="hidden xl:block capitalize cursor-pointer ml-5">sign in</div>
 
                 <div>
                     <span
-                        className="hidden btn xl:block capitalize cursor-pointer bg-[#da3743] w-[157px] h-[54px] whitespace-nowrap text-white px-5 py-3 rounded-full">create account</span>
+                        className="hidden btn xl:block capitalize cursor-pointer bg-[#da3743] w-[157px] h-[54px] whitespace-nowrap text-white px-5 py-3 rounded-full">
+                        create account
+                    </span>
                 </div>
             </div>
 
+            <div className="xl:hidden block flex flex-col items-center justify-center">
+                <Sidebar/>
+            </div>
         </div>
     );
 };
