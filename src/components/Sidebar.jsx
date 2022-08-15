@@ -19,7 +19,7 @@ const Sidebar = () => {
                     <img src={Vec5} alt=""/>
                 </button>
             ) : (
-                <GiHamburgerMenu onClick={() => setShowSidebar(!showSidebar)} className="mr-10 mt-2"/>
+                <GiHamburgerMenu onClick={() => setShowSidebar(!showSidebar)} className="mr-2 text-2xl mt-2"/>
             )}
 
             <div

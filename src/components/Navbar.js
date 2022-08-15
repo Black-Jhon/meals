@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className="relative search xl:flex xl:justify-center xl:items-center xl:space-x-5">
                     <BsSearch className="hidden xl:block cursor-pointer mr-5 text-xl"/>
                     <BsCart3
-                        className="cursor-pointer text-xl xl:-right-12 xl:mt-1 absolute -right-28 -top-1"/>
+                        className="cursor-pointer text-xl xl:-right-12 xl:mt-1 absolute -right-28 -top-2 xl:-top-1"/>
                 </div>
 
                 <div className="hidden xl:block capitalize cursor-pointer ml-5">sign in</div>
