@@ -4,7 +4,7 @@
 
 @layer components {
     .onHover {
-        @apply hover:bg-[#da3743] w-[33px] h-[20px] hover:flex hover:items-center hover:justify-center hover:cursor-pointer hover:text-white hover:px-2 hover:py-1 hover:rounded-lg hover:transition hover:duration-200 hover:ease-out;
+        @apply hover:bg-[#da3743] hover:flex hover:items-center hover:justify-center hover:cursor-pointer hover:text-white hover:px-2 hover:py-1 hover:rounded-lg hover:transition hover:duration-200 hover:ease-out;
     }
 
     .btn {
