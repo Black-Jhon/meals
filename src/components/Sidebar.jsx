@@ -42,22 +42,22 @@ const Sidebar = () => {
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec1} alt=""/>
-                            <p>Home</p>
+                            <p className="text-gray-700">Home</p>
                         </span>
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec4} alt=""/>
-                            <p>Menu</p>
+                            <p className="text-gray-700">Menu</p>
                         </span>
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec3} className="ml-5" alt=""/>
-                            <p>My Tray</p>
+                            <p className="text-gray-700">My Tray</p>
                         </span>
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec2} alt="" className="ml-10"/>
-                            <p className="">Meal Plans</p>
+                            <p className="text-gray-700">Meal Plans</p>
                         </span>
                     </div>
                 </div>
