@@ -32,7 +32,7 @@ const HeroSection = () => {
                 </span>
                 <span className="absolute md:left-full left-72 md:top-full top-10/12 right-0">
                     <TbMessageDots
-                        className="bg-[#da3743] text-white rounded-full md:w-20 md:h-20 w-16 h-16 p-2 cursor-pointer"/>
+                        className="bg-[#da3743] text-white rounded-full md:w-20 md:h-20 w-12 h-12 md:mr-0 mr-5 p-2 cursor-pointer"/>
                 </span>
             </div>
         </div>

@@ -59,8 +59,8 @@ const ItemMenu = () => {
                     <li className="onHover">rice</li>
                     <li className="onHover">beans</li>
                     <li className="onHover">fries</li>
-                    <li className="onHover mr-4">swallow</li>
-                    <li className="onHover mr-3">others</li>
+                    <li className="onHover">swallow</li>
+                    <li className="onHover">others</li>
                 </ul>
             </div>
 
