@@ -6,7 +6,7 @@ import {VscTwitter} from "react-icons/vsc";
 
 const Footer = () => {
     return (
-        <div className="xl:px-[200px] bg-[#fafafa]">
+        <div className="md:px-40 bg-[#fafafa]">
             <div className="xl:grid xl:grid-cols-3 my-10">
                 <div className="flex gap-3 items-center xl:mx-0 mx-5 xl:pt-0 pt-32">
                     <img src={Logo} className="" alt=""/>
@@ -39,10 +39,13 @@ const Footer = () => {
                 <div>
                     <h1 className="text-xs text-gray-500">© 2022 Meals. All rights reserved.</h1>
                 </div>
-                <div className="flex xl:space-x-5 text-gray-500">
-                    <CgFacebook className="bg-[#f3eee4] w-[50px] h-[50px] rounded-full xl:p-3 p-4 cursor-pointer"/>
-                    <RiInstagramLine className="bg-[#f3eee4] w-[50px] h-[50px] rounded-full xl:p-3 p-4 cursor-pointer"/>
-                    <VscTwitter className="bg-[#f3eee4] w-[50px] h-[50px] rounded-full xl:p-3 p-4 cursor-pointer"/>
+                <div className="flex xl:space-x-5 md:space-x-3 space-x-2 text-gray-500">
+                    <CgFacebook
+                        className="bg-[#f3eee4] xl:w-10 xl:h-10 w-12 h-12 rounded-full xl:p-3 p-4 cursor-pointer"/>
+                    <RiInstagramLine
+                        className="bg-[#f3eee4] xl:w-10 xl:h-10 w-12 h-12 rounded-full xl:p-3 p-4 cursor-pointer"/>
+                    <VscTwitter
+                        className="bg-[#f3eee4] xl:w-10 xl:h-10 w-12 h-12 rounded-full xl:p-3 p-4 cursor-pointer"/>
                 </div>
             </div>
         </div>

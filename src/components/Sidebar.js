@@ -27,18 +27,18 @@ const Sidebar = () => {
                     showSidebar ? "translate-x-0 " : "translate-x-full"
                 }`}>
                 <div className="mt-20 text-black -ml-16">
-                    <div className="flex gap-5">
+                    <div className="flex items-center gap-5">
                         <button
-                            className="bg-[#DA3743] px-4 py-4 rounded-full capitalize cursor-pointer text-white font-mono outline-none">
+                            className="bg-[#DA3743] md:px-10 md:py-7 px-4 py-4 rounded-full capitalize cursor-pointer text-white font-mono outline-none">
                             create account
                         </button>
                         <button
-                            className="border border-[#DA3743] px-4 py-3 rounded-full capitalize cursor-pointer font-mono outline-none">
+                            className="border border-[#DA3743] md:px-10 md:py-7 px-4 py-3 rounded-full capitalize cursor-pointer font-mono outline-none">
                             sign in
                         </button>
                     </div>
 
-                    <div className="mt-10 flex-col items-start items-center space-y-10 -ml-52">
+                    <div className="mt-10 flex-col items-start space-y-10 md:-ml-[40rem] -ml-52">
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec1} alt=""/>

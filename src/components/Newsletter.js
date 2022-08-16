@@ -26,14 +26,14 @@ const Newsletter = () => {
     ];
 
     return (
-        <div className="xl:px-[200px]">
+        <div className="md:px-40">
 
             <div className="flex justify-center mt-10 m-auto">
                 <div>
-                    <h1 className="xl:w-[361px] xl:h-[45px] w-[233px] h-[32px] ml-16 text-lg text-center xl:ml-7 mb-4 xl:text-3xl font-bold">
+                    <h1 className="xl:w-80 xl:h-10 w-60 h-5 ml-10 text-lg text-center xl:ml-8 mb-4 xl:text-3xl font-bold">
                         Blog Our Latest News
                     </h1>
-                    <p className="xl:w-[420.99px] xl:h-[52px] w-[343px] h-[44px] text-center text-sm text-gray-500">
+                    <p className="xl:w-96 xl:h-10 w-80 h-10 text-center text-sm text-gray-500">
                         Have you ever browsed food blogs like mine and wondered how to start a food blog of your very
                         own?
                     </p>
@@ -44,7 +44,7 @@ const Newsletter = () => {
                 {news.map((e) => {
                     return (
                         <div className="shadow rounded-xl">
-                            <img src={e.img} alt="" className="w-[355.61px] h-[235px] m-auto"/>
+                            <img src={e.img} alt="" className="m-auto"/>
                             <div className="p-8">
                                 <div className="flex gap-5 mb-5">
                                     <p className="capitalize text-[#da3743] font-bold text-xs">design</p>

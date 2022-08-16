@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div
             className="md:px-40 md:bg-inherit bg-[#da3743] md:flex justify-between items-center py-5">
             <div className="space-y-10">
-                <h1 className="font-bold md:text-6xl md:text-gray-700 text-white xl:w-96 md:h-40 text-2xl md:ml-0 ml-5">
+                <h1 className="font-bold xl:text-6xl md:text-7xl md:text-gray-700 text-white xl:w-96 md:w-full xl:h-40 md:h-60 text-2xl md:ml-0 ml-5">
                     Delicious meals at your convenience
                 </h1>
                 <h2 className="md:text-gray-500 md:text-xl md:w-96 md:ml-0 ml-5 text-white text-sm">
@@ -26,7 +26,7 @@ const HeroSection = () => {
                            placeholder="Search for meals"/>
                 </div>
             </div>
-            <div className="relative">
+            <div className="relative xl:block md:hidden">
                 <span className="">
                     <img src={Jellof} alt="" className="rounded-full border-4 p-10 border-[#da3743]"/>
                 </span>
