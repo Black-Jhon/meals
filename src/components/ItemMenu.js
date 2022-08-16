@@ -82,6 +82,10 @@ const ItemMenu = () => {
                                     <p className="w-[93px] h-[32px] xl:ml-5 mt-2 text-xl text-gray-700">{e.price}</p>
                                     <BsCart4
                                         className="bg-[#da3743] text-white rounded-xl text-4xl cursor-pointer font-bold p-2 xl:hidden block"/>
+                                    <button
+                                        className="hidden xl:block bg-[#DA3743] px-3 py-2 text-white rounded-full capitalize font-bold">
+                                        add to cart
+                                    </button>
                                 </div>
                             </div>
                         </div>
