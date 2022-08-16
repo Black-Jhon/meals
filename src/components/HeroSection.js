@@ -6,19 +6,19 @@ import {BsSearch} from "react-icons/bs";
 const HeroSection = () => {
     return (
         <div
-            className="md:px-40 md:bg-inherit bg-[#da3743] md:flex justify-between items-center py-5">
+            className="md:px-40 px-5 md:bg-inherit bg-[#da3743] md:flex justify-between items-center py-5">
             <div className="space-y-10">
-                <h1 className="font-bold xl:text-6xl md:text-7xl md:text-gray-700 text-white xl:w-96 md:w-full xl:h-40 md:h-60 text-2xl md:ml-0 ml-5">
+                <h1 className="font-bold xl:text-6xl md:text-7xl md:text-gray-700 text-white xl:w-96 md:w-full xl:h-40 md:h-60 text-2xl">
                     Delicious meals at your convenience
                 </h1>
-                <h2 className="md:text-gray-500 md:text-xl md:w-96 md:ml-0 ml-5 text-white text-sm">
+                <h2 className="md:text-gray-500 md:text-xl md:w-96 text-white text-sm">
                     Order your meals from us and we will have it delivered at your doorstep.
                 </h2>
                 <button
                     className="hidden md:block capitalize w-80 h-16 text-white bg-[#da3743] md:px-16 md:py-3 btn">
                     get started
                 </button>
-                <div className="relative md:hidden block ml-5">
+                <div className="relative md:hidden block">
                     <h1 className="md:hidden block capitalize text-white mb-2">instant order</h1>
                     <BsSearch className="cursor-pointer absolute top-12 text-xl text-gray-500 left-5"/>
                     <input type="text"

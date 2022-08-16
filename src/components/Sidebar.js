@@ -5,6 +5,7 @@ import Vec2 from "../images/Vector1.png";
 import Vec3 from "../images/Vector2.png";
 import Vec4 from "../images/Vector3.png";
 import Vec5 from "../images/Vector5.png";
+import {Link} from "react-router-dom";
 
 const Sidebar = () => {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -19,7 +20,7 @@ const Sidebar = () => {
                     <img src={Vec5} alt=""/>
                 </button>
             ) : (
-                <GiHamburgerMenu onClick={() => setShowSidebar(!showSidebar)} className="mr-2 text-2xl mt-2"/>
+                <GiHamburgerMenu onClick={() => setShowSidebar(!showSidebar)} className="text-2xl mt-2"/>
             )}
 
             <div
@@ -39,11 +40,13 @@ const Sidebar = () => {
                     </div>
 
                     <div className="mt-10 flex-col items-start space-y-10 md:-ml-[40rem] -ml-52">
-                        <span
-                            className="flex justify-center items-center gap-5">
+                        <Link to="/">
+                            <span
+                                className="flex justify-center items-center gap-5">
                             <img src={Vec1} alt=""/>
                             <p className="text-gray-700">Home</p>
                         </span>
+                        </Link>
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec4} alt=""/>

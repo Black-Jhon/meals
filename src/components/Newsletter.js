@@ -26,7 +26,7 @@ const Newsletter = () => {
     ];
 
     return (
-        <div className="md:px-40">
+        <div className="md:px-40 px-5">
 
             <div className="flex justify-center mt-10 m-auto">
                 <div>

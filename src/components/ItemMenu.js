@@ -49,7 +49,7 @@ const ItemMenu = () => {
     ];
 
     return (
-        <div className="xl:px-40 bg-[#fafafa] mt-20">
+        <div className="xl:px-40 px-5 bg-[#fafafa] mt-20">
             <h1 className="capitalize py-6 text-[#da3743] font-bold">menu</h1>
 
             <div className="md:flex grid md:justify-between items-center">
