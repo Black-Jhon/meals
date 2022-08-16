@@ -36,12 +36,12 @@ const Navbar = () => {
                 <div className="relative search xl:flex xl:justify-center xl:items-center xl:space-x-5">
                     <BsSearch className="hidden xl:block cursor-pointer text-xl"/>
                     <Link to="/cart">
-                        <span className="relative">
                         <BsCart3
-                            className="cursor-pointer text-xl xl:-right-12 xl:-top-4 xl:mt-1 md:-right-80 absolute -right-28 -top-2 xl:-top-1"/>
+                            className="cursor-pointer text-xl xl:-right-12 xl:-top-1 xl:mt-1 md:-right-80 absolute -right-28 -top-2 xl:-top-1"/>
                         <span
-                            className="absolute xl:ml-12 bg-[#DA3743] md:ml-80 -top-5 ml-28 rounded-full px-1 flex justify-center items-center text-white">0</span>
-                    </span>
+                            className="absolute xl:ml-12 bg-[#DA3743] md:ml-96 -top-4 ml-28 rounded-full px-1 flex justify-center items-center text-white">
+                            0
+                        </span>
                     </Link>
                 </div>
 
