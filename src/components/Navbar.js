@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Link to="/cart">
                         <span className="relative">
                         <BsCart3
-                            className="cursor-pointer text-xl xl:-right-12 xl:-top-4 xl:mt-1 md:-right-80 absolute -right-28 -top-2 xl:-top-1"/>
+                            className="cursor-pointer text-xl xl:-right-12 xl:-top-3.5 xl:mt-1 md:-right-80 absolute -right-28 -top-2 xl:-top-1"/>
                         <span
                             className="absolute xl:ml-12 bg-[#DA3743] md:ml-80 -top-5 ml-28 rounded-full px-1 flex justify-center items-center text-white">0</span>
                     </span>
