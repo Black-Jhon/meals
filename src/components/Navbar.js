@@ -40,7 +40,7 @@ const Navbar = () => {
                             className="cursor-pointer text-xl xl:-right-12 xl:-top-1 xl:mt-1 md:-right-80 absolute -right-28 -top-2 xl:-top-1"/>
                         <span
                             className="absolute xl:ml-12 bg-[#DA3743] md:ml-80 -top-4 ml-28 rounded-full px-1 flex justify-center items-center text-white">
-                            0
+                            3
                         </span>
                     </Link>
                 </div>
