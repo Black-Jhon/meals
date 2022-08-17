@@ -52,11 +52,13 @@ const Sidebar = () => {
                             <img src={Vec4} alt=""/>
                             <p className="text-gray-700">Menu</p>
                         </span>
+                        <Link to="/cart">
                         <span
-                            className="flex justify-center items-center gap-5">
+                            className="flex justify-center items-center gap-5 mt-10">
                             <img src={Vec3} className="ml-5" alt=""/>
                             <p className="text-gray-700">My Tray</p>
                         </span>
+                        </Link>
                         <span
                             className="flex justify-center items-center gap-5">
                             <img src={Vec2} alt="" className="ml-10"/>
