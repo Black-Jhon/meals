@@ -1,52 +1,9 @@
 import React from "react";
 import {BsCart4} from "react-icons/bs";
-import Beef from "../images/Rectangle 82(2).png";
-import Chicken from "../images/Rectangle 82.png";
-import Wrap from "../images/Rectangle 82(1).png";
-import Spag from "../images/Rectangle 82(3).png";
-import Special from "../images/Rectangle 82(4).png";
-import White from "../images/Rectangle 82(5).png";
-
+import data from "./data/Data";
 
 const ItemMenu = () => {
-    const meals = [
-        {
-            img: Beef,
-            name: "rice and beef",
-            text: "Fried potato/yam chips with egg sauce or any topping of your choice",
-            price: "₦ 1,500"
-        },
-        {
-            img: Chicken,
-            name: "chicken",
-            text: "Fried potato/yam chips with egg sauce or any topping of your choice",
-            price: "₦ 1000"
-        },
-        {
-            img: Wrap,
-            name: "wrapped bugger",
-            text: "Fried potato/yam chips with egg sauce or any topping of your choice",
-            price: "₦ 2000"
-        },
-        {
-            img: Spag,
-            name: "delicious spaghetti",
-            text: "Fried potato/yam chips with egg sauce or any topping of your choice",
-            price: "₦ 1,800"
-        },
-        {
-            img: Special,
-            name: "white rice and beef",
-            text: "Fried potato/yam chips with egg sauce or any topping of your choice",
-            price: "₦ 3000"
-        },
-        {
-            img: White,
-            name: "rice and sausage",
-            text: "Fried potato/yam chips with egg sauce or any topping of your choice",
-            price: "₦ 2500"
-        },
-    ];
+    const meals = data;
 
     return (
         <div className="xl:px-40 px-5 bg-[#fafafa] mt-20">

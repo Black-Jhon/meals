@@ -42,6 +42,7 @@ const data = [
         price: "₦ 3000"
     },
     {
+        id: 6,
         img: White,
         name: "rice and sausage",
         text: "Fried potato/yam chips with egg sauce or any topping of your choice",
