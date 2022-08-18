@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import {BsCart4} from "react-icons/bs";
 import data from "./data/Data";
 
 const ItemMenu = () => {
     const meals = data;
+    const li = ["all", "rice", "beans", "fries", "swallow", "others"];
+    const [selected, setSelected] = useState();
 
     return (
         <div className="xl:px-40 px-5 bg-[#fafafa] mt-20">
@@ -12,12 +14,15 @@ const ItemMenu = () => {
             <div className="md:flex grid md:justify-between items-center">
                 <h1 className="xl:text-4xl text-xl whitespace-nowrap font-bold">Current menu</h1>
                 <ul className="flex justify-center items-center xl:gap-3 gap-5 capitalize border border-gray-200 px-1 py-2 rounded-lg text-sm">
-                    <li className="onHover">all</li>
-                    <li className="onHover">rice</li>
-                    <li className="onHover">beans</li>
-                    <li className="onHover">fries</li>
-                    <li className="onHover">swallow</li>
-                    <li className="onHover">others</li>
+                    {li.map((list, index) => {
+                        return (
+                            <div
+                                className={selected === list ? "bg-[#DA3743] px-1 py-1 text-white rounded-lg font-bold" : "cursor-pointer"}
+                                onClick={() => setSelected(li[index])}>
+                                {list}
+                            </div>
+                        );
+                    })}
                 </ul>
             </div>
 

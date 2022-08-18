@@ -8,7 +8,7 @@ const Testimonials = () => {
     return (
         <div className="xl:px-40 md:px-5 bg-[#f9e1e3] grid md:grid-cols-2">
             <div className="md:mt-20">
-                <h1 className="xl:w-80 xl:h-40 md:mx-0 mx-5 text-xl md:mt-0 mt-10 xl:text-5xl md:text-3xl text-3xl text-gray-700 mb-5 font-bold">
+                <h1 className="xl:w-80 xl:h-40 md:mx-0 mx-5 text-xl md:mt-0 mt-10 xl:text-5xl md:text-3xl text-gray-700 mb-5 font-bold">
                     What our customers say about us
                 </h1>
                 <h3 className="w-80 md:h-20 h-10 xl:mb-0 mb-28 font-bold text-gray-500 md:mx-0 mx-5">
