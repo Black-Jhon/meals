@@ -30,7 +30,7 @@ const ItemMenu = () => {
                 {meals.map((e) => {
                     return (
                         <div
-                            className="shadow-md bg-white rounded-lg xl:mx-0 xl:w-full xl:h-full">
+                            className="shadow-md bg-white rounded-lg xl:mx-0 xl:w-full xl:h-full overflow-x-clip">
                             <img src={e.img} alt=""
                                  className="xl:w-full xl:h-60 m-auto object-cover"/>
                             <div className="md:mt-5 md:mb-2 md:p-2 p-1">
