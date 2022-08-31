@@ -1,17 +1,12 @@
 import React from "react";
-import {Routes, Route} from "react-router-dom";
-import Home from "./pages/Home";
-import Cart from "./components/Cart";
+import AnimateRoute from "./components/AnimateRoute";
 
 const App = () => {
-    return (
-        <div>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/cart" element={<Cart/>}/>
-            </Routes>
-        </div>
-    );
+  return (
+    <div>
+      <AnimateRoute />
+    </div>
+  );
 };
 
 export default App;
