@@ -12,7 +12,7 @@ const Cart = () => {
     <div>
       <Navbar />
       <main className="md:px-40 px-5 md:mb-96">
-        <motion.div className="overflow-x-auto relative" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+        <motion.div className="overflow-x-auto relative" animate={{ y: 10 }} transition={{ ease: "easeOut", duration: 2 }}>
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
               <tr>

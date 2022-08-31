@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <motion.div className="md:px-40 px-5 md:bg-inherit bg-[#da3743] md:flex justify-between items-center py-5" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <motion.div className="md:px-40 px-5 md:bg-inherit bg-[#da3743] md:flex justify-between items-center py-5" animate={{ y: 40 }} transition={{ ease: "easeOut", duration: 2 }}>
       <div className="space-y-10">
         <h1 className="font-bold xl:text-6xl md:text-7xl md:text-gray-700 text-white xl:w-96 md:w-full xl:h-40 md:h-60 text-2xl">Delicious meals at your convenience</h1>
         <h2 className="md:text-gray-500 md:text-xl md:w-96 text-white text-sm">Order your meals from us and we will have it delivered at your doorstep.</h2>
